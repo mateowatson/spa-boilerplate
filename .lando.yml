@@ -1,0 +1,4 @@
+name: game-off-2020
+recipe: lamp
+config:
+    webroot: .
