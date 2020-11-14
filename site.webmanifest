@@ -1,7 +1,7 @@
 {
-    "name": "Game Off 2020",
-    "short_name": "Game Off 2020",
-    "description": "Game Off 2020 in progress",
+    "name": "SPA Boilerplate",
+    "short_name": "SPA Boilerplate",
+    "description": "SPA Boilerplate description",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",

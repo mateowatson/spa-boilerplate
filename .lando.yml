@@ -1,4 +1,4 @@
-name: game-off-2020
+name: spa-boilerplate
 recipe: lamp
 config:
     webroot: .

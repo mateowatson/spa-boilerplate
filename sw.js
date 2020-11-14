@@ -1,5 +1,5 @@
 // Service worker version. Should be updated when site changes.
-var cacheName = 'game-off-2020-20201114125018';
+var cacheName = 'spa-bp-20201114125018';
 // Files to cache. This is just the "app shell." This script also stores images
 // and all other docs in ServiceWorker cache as they are requested
 var appShellFiles = [
@@ -17,18 +17,9 @@ var appShellFiles = [
     '/site.webmanifest',
     '/safari-pinned-tab.svg',
     '/favicon.ico',
-    '/css/normalize.css',
-    '/css/main.css',
-    '/css/spectrum.min.css',
+    '/css/app.css',
     '/index.html',
-    '/js/main.js',
-    '/js/vendor/modernizr-3.7.1.min.js',
-    '/js/vendor/jquery-3.4.1.min.js',
-    '/js/vendor/spectrum.min.js',
-    '/js/plugins.js',
-    '/fonts/Merriweather/Merriweather-Regular.ttf',
-    '/fonts/Merriweather/Merriweather-Bold.ttf',
-    '/fonts/Merriweather/Merriweather-Italic.ttf'
+    '/js/app.js',
 ];
 var contentToCache = appShellFiles;
 
